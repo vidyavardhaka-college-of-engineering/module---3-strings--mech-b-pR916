@@ -15,7 +15,7 @@ int main()
                       char a[100];
 printf("Enter a String: ");
 scanf("%s",a);  
-printf("input string is \n %s",a);                  
+printf("Enter string is \n %s",a);                  
                //read the string from user
                //print the string
 return 0; 
