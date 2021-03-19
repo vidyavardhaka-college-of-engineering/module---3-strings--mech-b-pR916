@@ -19,6 +19,6 @@ int main()
 		            str2[i]=str1[i] ;
 	      }
 	      str2[i]=str1[50] ;                  //Complete the statement
-	      printf("The copied String-2 = %s",str2);
+	      printf("The copied String-2 is %s",str2);
 	      return 0;
 }
