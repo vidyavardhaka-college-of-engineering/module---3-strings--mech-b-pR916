@@ -12,22 +12,21 @@
 
 #include <stdio.h>
 int main() {
-	char a[20], b[20], c[20];
-	int i, j;
-	printf("Enter the first string : ");
+       	char a[20], b[20], c[20];
+      	int i, j;
+       	printf("Enter the first string : ");
 	scanf("%s", a);
 	printf("Enter the second string : ");
 	scanf("%s", b);
-	for ( )                                                // Complete the code in for
-           { 
-		c[i] = ;                                              //Complete the statement
+	for (i=0;i<20;i++)                                                // Complete the code in  for
+     {
+		      c[i] =a[i];                                              //Complete the statement
 	}
-	for ( )                                                 // Complete the code in for
-           { 
-		c[i] = ;                                              //Complete the statement
-		i++;
+	for (i=0;i<20;i++ )                                                 // Complete the code in for
+     { 
+	      	c[i] =c[i]+b[i] ;                                              //Complete the statement
 	}
-	c[i]= ;                                               //Complete the statement
-	printf("The concatenated string = %s", c);
+	c[i]=a[i]+b[i];                                               //Complete the statement
+	printf("The concatenated string = %s%s",a,b);
 	return 0;
 }
