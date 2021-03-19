@@ -11,8 +11,8 @@
 #include <stdio.h>
 int main() 
 {
-              //Declare the string
-              char a[100];
+                     //Declare the    string
+                      char a[100];
 printf("Enter a String: ");
 scanf("%s",a);  
 printf("input string is %s",a);                  
